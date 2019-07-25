@@ -63,7 +63,7 @@ class Ach(object):
         str_length = str(length)
 
         match = re.match(
-            r'([\w\s^!_@#$%&,*:./+\-]{1,' + str_length + '})',
+            r'([\w\s^!_@#$%&,*:./+\\;-]{1,' + str_length + '})',
             field,
         )
 
