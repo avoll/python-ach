@@ -87,7 +87,8 @@ class AchFile(object):
             entry = EntryDetail(
                 std_ent_cls_code=std_ent_cls_code,
                 id_number=record.get('id_number', ''),
-                num_add_recs=record.get('num_add_recs', '')
+                num_add_recs=record.get('num_add_recs', ''),
+                recv_cmpy_name=record.get('recv_cmpy_name', ''),
             )
 
             entry.transaction_code = record.get('type')
