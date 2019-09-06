@@ -135,13 +135,14 @@ class Header(Ach):
     }
 
     def __init__(self, immediate_dest='', immediate_org='', file_id_mod='A',
-                 im_dest_name='', im_orgn_name='', reference_code=''):
+                 im_dest_name='', im_orgn_name='', reference_code='',
+                 file_gen_datetime=None):
         """
         Initializes all values needed for
         our header row
         """
 
-        date = datetime.today()
+        date = file_gen_datetime if file_gen_datetime else datetime.today()
 
         self.immediate_dest = self.make_right_justified(immediate_dest, 10)
         self.immediate_org = self.make_right_justified(immediate_org, 10)

@@ -30,7 +30,8 @@ class AchFile(object):
             self.header = Header(
                 settings['immediate_dest'],
                 settings['immediate_org'], file_id_mod,
-                settings['immediate_dest_name'], settings['immediate_org_name']
+                settings['immediate_dest_name'], settings['immediate_org_name'],
+                file_gen_datetime=settings.get('file_gen_datetime'),
             )
         except KeyError:
             raise Exception(
