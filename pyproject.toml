@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "earnup-python-ach"
-version = "1.0.0"
+version = "1.0.1"
 description = "ACH File Creation"
 authors = ["EarnUp Engineering <engineering@earnup.com>"]
 repository = "https://github.com/EarnUp/python-ach"
