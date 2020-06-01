@@ -8,16 +8,22 @@ Forked from `python-ach` by Travis Hathaway and released on PyPI as `carta-ach`.
 
 Local Development
 =======
-1. Create a virtual environment: `python3 -m venv venv`
-1. Activate the virtual environment: `source venv/bin/activate`
-1. Install the test requirements: `pip install -r test_requirements.txt`
-1. Run the tests: `PYTHONPATH=. py.test tests`
+# Create a virtual environment: `python3 -m venv venv`
+# Activate the virtual environment: `source venv/bin/activate`
+# Install the test requirements: `pip install -r test_requirements.txt`
+# Run the tests: `PYTHONPATH=. py.test tests`
 
 
 Example
 =======
 
 Below is an example of how to use the module:
+
+Reading an ach file:
+
+.. code:: python
+
+Creating an ach file:
 
 .. code:: python
 
