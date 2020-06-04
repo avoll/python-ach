@@ -67,12 +67,12 @@ class Parser(object):
             'len': 1,
         },
         {
-            'field': 'im_dest_name ',
+            'field': 'im_dest_name',
             'pos': 40,
             'len': 23,
         },
         {
-            'field': 'im_orgn_name ',
+            'field': 'im_orgn_name',
             'pos': 63,
             'len': 23,
         },
