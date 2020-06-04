@@ -8,11 +8,11 @@ Forked from `python-ach` by Travis Hathaway and released on PyPI as `carta-ach`.
 
 Local Development
 =======
-1. Create a virtual environment: `python3 -m venv venv`
-2. Activate the virtual environment: `source venv/bin/activate`
-3. Install the test requirements: `pip install -r test_requirements.txt`
-4. Run the tests: `PYTHONPATH=. py.test tests`
-5. Local package install: `python setup.py install`
+1. Create a virtual environment: :code:`python3 -m venv venv`
+2. Activate the virtual environment: :code:`source venv/bin/activate`
+3. Install the test requirements: :code:`pip install -r test_requirements.txt`
+4. Run the tests: :code:`PYTHONPATH=. py.test tests`
+5. Local package install: :code:`python setup.py install`
 
 Example
 =======
